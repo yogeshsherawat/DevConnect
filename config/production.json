@@ -1,7 +1,7 @@
 {
-    "mongoURI":"mongodb+srv://yogesh:yogesh@cluster0-nprzc.mongodb.net/devconnect?retryWrites=true&w=majority",
+    "mongoURI":"xxxx",
     "mongoURL":"mongodb://localhost/dev_connector_v1",
-    "jwtSecret":"myTopSecret",
-    "githubClientId":"2601e26f3b7b802385e3",
-    "githubClientSecret":"52ebc40d36a16137d8d07a46a1f53c4ecb9d28a4"
+    "jwtSecret":"xxxx",
+    "githubClientId":"xxxx",
+    "githubClientSecret":"xxxx"
 }

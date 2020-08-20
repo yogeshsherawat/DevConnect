@@ -18,7 +18,7 @@ const Dashboard = ({
     getCurrentProfile();
   }, [getCurrentProfile]);
 
-  return loading && profile === null ? (
+  return (loading===true && profile === null ? (
     <Spinner />
   ) : (
     <Fragment>
@@ -47,7 +47,7 @@ const Dashboard = ({
         </Fragment>
       )}
     </Fragment>
-  );
+  ));
 };
 
 Dashboard.propTypes = {
